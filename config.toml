@@ -1,0 +1,26 @@
+baseURL = "https://harshj.com/"
+languageCode = "en-us"
+title = "Harsh J"
+theme = "qwertymaniac-noteworthy"
+
+[author]
+  name = "Harsh"
+
+[params]
+  description = "Memoirs of a QWERTY Keyboard"
+  email = "mailto:harsh-at-harshj-dot-com"
+
+[[menu.main]]
+	name = "Archives"
+	identifier = "archives"
+	url = "/archives/"
+	weight = 1
+
+# All posts must link right at the top of the domain,
+# not under /posts/ as it without this override
+[permalinks]
+  posts = "/:title"
+
+# Allow some raw HTML for tags not covered by Markdown yet
+[markup.goldmark.renderer]
+  unsafe = true

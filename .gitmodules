@@ -1,0 +1,3 @@
+[submodule "themes/qwertymaniac-noteworthy"]
+	path = themes/qwertymaniac-noteworthy
+	url = https://github.com/QwertyManiac/hugo-theme-noteworthy.git

@@ -1,7 +1,9 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'"
+    # Hugo uses inline styling for syntax highlighting,
+    # disabling CSP until we figure out a way to get it in a file
+    # Content-Security-Policy = "default-src 'self'"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"

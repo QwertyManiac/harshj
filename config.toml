@@ -24,3 +24,8 @@ theme = "qwertymaniac-noteworthy"
 # Allow some raw HTML for tags not covered by Markdown yet
 [markup.goldmark.renderer]
   unsafe = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"

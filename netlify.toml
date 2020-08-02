@@ -1,7 +1,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'"
+    Content-Security-Policy = "style-src 'sha512-74b1be31121deb42d9c63d4665be584b9b8c82dee7aaff4d6b9fab329867132591122b4f9f48bbeb7f6f5d02e01e342dbfa0a739002f738fa5a9977178638a7f' default-src 'self'"
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"

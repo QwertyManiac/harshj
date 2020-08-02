@@ -1,0 +1,12 @@
+<header>
+  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }} | <small>{{ .Site.Params.Description }}</small></a></h1>
+  <nav>
+  {{ with .Site.Menus.main }}
+  {{ range . }}
+    <a href="{{ .URL | relURL }}">{{ .Name }}</a> |
+  {{ end }}
+  {{ end }}
+    <a href="{{ .Site.Params.Email }}">&phone;</a>
+  </nav>
+</header>
+

@@ -1,7 +1,6 @@
 baseURL = "https://harshj.com/"
 languageCode = "en-us"
 title = "Harsh J"
-theme = "qwertymaniac-noteworthy"
 paginate = 3
 
 [author]
